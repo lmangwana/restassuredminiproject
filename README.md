@@ -13,7 +13,7 @@ This project validates the response status and headers of a REST API using RestA
 
 ### src/test/java
 
-#### package testCases
+#### package testClasses
 
 - ValidateResponseStatus: This class contains test methods to validate the response status and headers of a REST API using RestAssured. It also includes tests to read and validate the JSON response body.
 
