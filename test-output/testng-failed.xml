@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC001">
+      <class name="TestClasses.ValidateResponseStatus">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="setUp"/>
-          <include name="checkoutTest"/>
+          <include name="validateParticluarHeader"/>
         </methods>
-      </class> <!-- testCases.TC001 -->
+      </class> <!-- TestClasses.ValidateResponseStatus -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
